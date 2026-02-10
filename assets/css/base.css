@@ -22,7 +22,7 @@ body{
   display: flex;
   flex-direction: column;
   min-height: 700px;
-  background-image: url(/assets/img/portadawebelpaladar.webp);
+  background-image: url(../assets/img/portadawebelpaladar.webp);
   background-size: cover;
   background-position: center;
   
