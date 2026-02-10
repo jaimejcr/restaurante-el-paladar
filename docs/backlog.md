@@ -1,6 +1,6 @@
 # Backlog (issues simuladas)
 
-## TODO
+## TO-DO
 - [ ] Definir estructura final /pages y /assets
 - [ ] Crear contacto.html y eventos.html (skeleton)
 - [ ] Normalizar nombres de archivos (kebab-case)
