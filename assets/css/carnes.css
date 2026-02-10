@@ -1,0 +1,138 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", sans-serif;
+  }
+  body{
+    display: flex;
+    flex-direction: column;  
+  }
+  /* [ BARRA DE NAVEGACIÓN */
+  
+  .section-navbar-title-buttons{
+    width: 100%;
+    
+    margin:auto;
+    display: flex;
+    flex-direction: column;
+  
+  }
+  
+  .enlace-contacto{
+    margin-top: 31px;
+    font-size: 12px;
+    padding: 10px 20px;
+    padding-bottom: 40px;
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+    border-bottom: 3px solid #ececec;
+    transition: border-color 0.3s;
+  }
+  
+  .enlace-contacto:hover{
+    border-bottom: 3px solid rgb(46, 73, 98);
+  }
+  
+  li a {
+    font-size: 12px;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+    padding-bottom: 37px;
+    border-bottom: 3px solid #ececec;
+    transition: border-color 0.3s;
+  }
+  
+  li a:hover{
+    border-bottom: 3px solid rgb(46, 73, 98);
+  }
+  .enlace-arroces,
+  .enlace-carnes{
+    border-right: 1px solid #ececec;
+  }
+  
+  ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .nav-bar {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    background-color: rgb(251, 251, 251, 0.5);
+  }
+  
+  .div-navbar {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  #logo {
+    width: 90px;
+    margin-left: -130px
+  }
+  .enlace-logo img {
+    width: 150px;
+    /* height: auto; */
+  }
+  
+  /*FIN DE NAVBAR*/
+  
+  .meetSection{
+    position: relative; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.5); 
+    background-position: cover;
+    background-attachment: fixed;
+    background-repeat: repeat;
+    z-index: 1;
+  }
+  
+  .meetSection::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: url(/assets/img/Ресторан\ «Loro».jpeg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: repeat;
+    filter: blur(1px);
+    z-index: -1; /* Para asegurarte de que el pseudo-elemento esté detrás del contenido */
+  }
+  
+  .containerMeets{
+    display: flex;
+    /* VAS POR aqui*/
+    flex-direction: column;
+    align-items: center;
+    
+  }
+  .containerMeets img{
+    width: 800px;
+    max-height: 650px;
+  }
+  .titleMeets{
+    margin-top: 10%;
+    font-size: 5rem;
+    padding: 30px;
+    background: #e0e0e0d5;
+    border-radius: 5px;
+    box-shadow: 2px 2px 12px #bebebe, -2px -2px 12px #ffffff;
+    overflow:hidden;
+  
+  }
+  
+  .divTittle{
+    width: 80%;
+  }

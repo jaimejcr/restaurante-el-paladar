@@ -4,3 +4,9 @@
 
 # VS Code
 .vscode/
+.idea
+
+.log
+#tooling
+node_moduls/
+dist/
