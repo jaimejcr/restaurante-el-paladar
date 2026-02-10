@@ -1,14 +1,19 @@
+## Objetivo 1
+Web estática para [cliente], usada como caso práctico para mejorar [A11y/semántica/SEO/performance/JS], documentando el antes/después para portfolio.
+
+
+
+
 # Plan (MVP)
 
-## Objetivo
-Publicar una versión entrevistable: navegación clara, HTML semántico, responsive, accesible y auditable.
+
 
 ## MVP
 - Home (index)
 - Arroces
 - Carnes
-- Contacto (skeleton)
-- Eventos (skeleton)
+- Contacto 
+- Eventos 
 
 ## Estructura objetivo
 / (root)
@@ -22,7 +27,7 @@ Publicar una versión entrevistable: navegación clara, HTML semántico, respons
 - /css
 - /js
 - /img
-- /icons
+- /logo-fav-icons
 
 ## Hitos
 - Milestone 1: Repo + docs + .gitignore + primer commit
