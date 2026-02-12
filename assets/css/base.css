@@ -162,13 +162,11 @@ h2{
 
 
 /* TERMINA LA EDICIÓN DE LOS ELEMENTOS DE LA SECCIÓN HEADER */
-#section2{
-  max-width: 70%;
-}
+
 
 .servicios-especiales{
   
-  width: 90%;
+  
   display: flex;
   align-items: center;
   flex-direction: column;
@@ -426,3 +424,4 @@ width: 90px;
   left: 0.75rem;
   top: 0.75rem;
 }
+
