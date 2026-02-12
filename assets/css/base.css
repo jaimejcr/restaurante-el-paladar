@@ -411,3 +411,18 @@ width: 90px;
   justify-content: space-between;
   margin: 50px 0px 50px 0px;
 }
+
+
+/*APARTIR DE AQUÍ EDITO PARA PROYECTO EN PORTFOLIO GITHUB*/
+.skip-link {
+  position: absolute;
+  left: -9999px;
+  top: 0;
+  padding: 0.5rem 0.75rem;
+  z-index: 9999;
+}
+
+.skip-link:focus {
+  left: 0.75rem;
+  top: 0.75rem;
+}
