@@ -22,7 +22,7 @@ body{
   display: flex;
   flex-direction: column;
   min-height: 700px;
-  background-image: url(../assets/img/portadawebelpaladar.webp);
+  background-image: url(../../assets/img/hero/portadawebelpaladar.webp);
   background-size: cover;
   background-position: center;
   
@@ -412,6 +412,8 @@ width: 90px;
 
 
 /*APARTIR DE AQUÍ EDITO PARA PROYECTO EN PORTFOLIO GITHUB*/
+
+/*STILOS PARA EL FOCO VISIBLE DE SKIP-LINK*/
 .skip-link {
   position: absolute;
   left: -9999px;
@@ -425,3 +427,19 @@ width: 90px;
   top: 0.75rem;
 }
 
+/*STILOS PARA EL FOCO VISIBLE DE a-button-input-select-textarea*/
+:focus{
+  outline: none;
+}
+:focus-visible{
+  outline: 3px solid currentColor;
+  outline-offset: 3px;
+}
+a:focus-visible,
+button:focus-visible,
+input:focus-visible,
+select:focus-visible,
+textarea:focus-visible {
+  outline: 3px solid currentColor;
+  outline-offset: 3px;
+}
