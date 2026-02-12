@@ -8,11 +8,27 @@ Web estática para [cliente], usada como caso práctico para mejorar [A11y/semá
 
 
 
+
 ## MVP
 - Home: `index.html`
 - Carta: `pages/arroces.html`, `pages/carnes.html`
 - Contacto: `pages/contacto.html`
 - Eventos: `pages/eventos.html`
+
+## Workflow
+- Rama estable: `main` (siempre funcional; cambios entran por merge).
+- Ramas cortas por tipo:
+  - `fix/*` errores y regresiones (404, a11y, rutas, bugs).
+  - `feat/*` nuevas páginas/funcionalidades (contacto/eventos, mejoras UI/JS).
+  - `docs/*` documentación (plan, devlog, evidencias, README).
+  - `chore/*` mantenimiento/refactor (estructura, limpieza, dedupe CSS).
+- Commits consistentes:
+  - `fix:`, `feat:`, `docs:`, `chore:` (+ opcional scope `fix(a11y):`).
+- Integración:
+  - Merge a `main` y borrado de la rama cuando esté merged.
+- Evidencias:
+  - Cambios importantes documentados en `docs/devlog.md`.
+  - Resultados de QA en `docs/qa-checklist.md` y capturas en `docs/evidence/`.
 
 ## Funcionalidades mínimas (JS)
 - Menú/navegación usable y accesible (sin errores en consola).
