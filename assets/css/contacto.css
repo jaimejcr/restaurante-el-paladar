@@ -1,0 +1,42 @@
+.contactSection {
+    max-width: 720px;
+    margin: 0 auto;
+    padding: 24px 16px;
+  }
+  
+  .contactForm {
+    display: grid;
+    gap: 16px;
+  }
+  
+  .formField {
+    display: grid;
+    gap: 6px;
+  }
+  
+  .formField label {
+    font-weight: 600;
+  }
+  
+  .formField input,
+  .formField select,
+  .formField textarea {
+    padding: 10px 12px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font: inherit;
+  }
+  
+  .formError {
+    margin: 0;
+    font-size: 0.95rem;
+  }
+  
+  .btnPrimary {
+    padding: 12px 14px;
+    border: 0;
+    border-radius: 10px;
+    cursor: pointer;
+    font: inherit;
+  }
+  

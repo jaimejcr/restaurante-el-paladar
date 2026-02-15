@@ -63,6 +63,53 @@
         </header>
         <main id="main-content">
           <h1>Contacto y reservas | El Paladar de Ajalvir</h1>
+          <section class="contactSection" aria-labelledby="contact-title">
+            <h2 id="contact-title">Reserva o contacta</h2>
+            <form class="contactForm" action="#" method="post" novalidate>
+              <div class="formField">
+                <label for="name">Nombre y apellidos</label>
+                <input id="name" name="name" type="text" autocomplete="name" aria-invalid="true" aria-describedby="error-name" required>
+                <!-- Mock error: mostrar solo cuando toque (por ahora lo dejamos oculto con hidden) -->
+                <p class="formError" id="error-name" >Este campo es obligatorio.</p>
+              </div>
+              <div class="formField">
+                <label for="phone">Teléfono</label>
+                <input id="phone" name="phone" type="tel" inputmode="tel" autocomplete="tel" required>
+                <p class="formError" id="error-phone" hidden>Introduce aquí tu número de teléfono</p>
+              </div>
+
+              <div class="formField">
+                <label for="date">Fecha</label>
+                <input id="date" name="date" type="date" required>
+                <p class="formError" id="error-date" hidden>Selecciona una fecha.</p>
+              </div>
+
+              <div class="formField">
+                <label for="people">Personas</label> 
+                <select id="people" name="people" required>
+                  <option value="">selecciona</option>
+                  <option value="1-2">1-2</option>
+                  <option value="3-4">3-4</option>
+                  <option value="5-6">5-6</option>
+                  <option value="+7">+7</option>
+                </select>
+                <p class="formError" id="error-people" hidden>Selecciona una opcón</p>
+              </div>
+
+              <div class="formField">
+                <label for="message">Mensaje (opcional)</label>
+                <textarea id="message" name="message" rows="4" autocomplete="off"></textarea>
+
+                <button type="submit" class="btnPrimary">Enviar</button>
+                <!-- Mock “estado global” (por ahora oculto) -->
+                <p class="formStatus" id="form-status" hidden>Revisa los campos marcados.</p>
+              </div>
+            </form>
+          </section>
+
+
+
+
         </main>
         <footer class="footerSection">
           <a class="enlace-logo_footer" href="../index.html" aria-label="Ir al inicio">

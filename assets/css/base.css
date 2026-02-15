@@ -17,7 +17,6 @@ body{
 
 .section-navbar-title-buttons{
   width: 100%;
-  max-width: 100%;
   margin:auto;
   display: flex;
   flex-direction: column;
@@ -86,6 +85,7 @@ ul {
 #logo {
   width: 90px;
   margin-left: -130px
+  
 }
 .enlace-logo img {
   width: 150px;
@@ -212,7 +212,7 @@ h2{
 }
 .boton-arroces, .boton-eventos, .boton-carnes{
   border: none;
-  width: 65%;
+  /* width: 65%; */
   padding: 8px 30px;
   background-color: #CD792E;
   color: white;
@@ -440,6 +440,6 @@ button:focus-visible,
 input:focus-visible,
 select:focus-visible,
 textarea:focus-visible {
-  outline: 3px solid currentColor;
+  outline: 2px solid grey;
   outline-offset: 3px;
 }
