@@ -35,7 +35,7 @@ Sitio web estático (HTML/CSS/JS) para un restaurante. Proyecto de portfolio ori
 - [x] M0 — Preparación y enfoque (objetivo/MVP)
 - [x] M1 — Repo y estándar de trabajo + evidencias iniciales
 - [x] M2 — Estructura limpia + higiene del repo
-- [ ] M3 — Base semántica y accesible (en progreso)
+- [x] M3 — Base semántica y accesible (en progreso)
 - [ ] M4 — SEO técnico base
 - [ ] M5 — Performance y buenas prácticas front
 - [ ] M6 — Quality gates (W3C/Lighthouse/axe/teclado)
