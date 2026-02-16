@@ -1,6 +1,6 @@
 # Devlog
 
-## 2026-02-10
+## Tasks
 - Inicialización de docs y estructura base del repo.
 
 - 2026-02-10 — Corrección de rutas, 404 y scaffolds
@@ -19,5 +19,6 @@
 Live Server + DevTools (Network): 0 recursos 404 en `index.html`, `pages/arroces.html`, `pages/carnes.html`.
 - `git grep` sin coincidencias para rutas absolutas `"/assets/"`.
 
+- M4: añadido manifest + verificado en DevTools (Application - manifest).
   
 
