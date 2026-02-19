@@ -52,3 +52,5 @@ Sitio web estático (HTML/CSS/JS) para un restaurante. Proyecto de portfolio ori
 - Dedupe de CSS (Home → `base.css` + overrides).
 - Accesibilidad: skip link, `main#main-content`, foco visible y `aria-label` en navegación.
 - Semántica: landmarks `header/nav/main/footer` (en progreso).
+- Añadido JSON_LD en index.html
+- Validado con schema Markup Validator (0errores, 0 advertencias) captura en docs/validation/schema-restaurant.png
